@@ -8,11 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		F16FC8C422D7E67000285FF1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16FC8C322D7E67000285FF1 /* AppDelegate.swift */; };
-		F16FC8C622D7E67000285FF1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16FC8C522D7E67000285FF1 /* ViewController.swift */; };
-		F16FC8C922D7E67000285FF1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F16FC8C722D7E67000285FF1 /* Main.storyboard */; };
 		F16FC8CB22D7E67200285FF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F16FC8CA22D7E67200285FF1 /* Assets.xcassets */; };
 		F16FC8CE22D7E67200285FF1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F16FC8CC22D7E67200285FF1 /* LaunchScreen.storyboard */; };
 		F16FC8D922D7E67200285FF1 /* RecipesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16FC8D822D7E67200285FF1 /* RecipesTests.swift */; };
+		F16FC8E522D7E6DE00285FF1 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16FC8E322D7E6DE00285FF1 /* HomeViewController.swift */; };
+		F16FC8E622D7E6DE00285FF1 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F16FC8E422D7E6DE00285FF1 /* HomeViewController.xib */; };
+		F16FC8E922D7E7D000285FF1 /* ReceipeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16FC8E722D7E7D000285FF1 /* ReceipeCell.swift */; };
+		F16FC8EA22D7E7D000285FF1 /* ReceipeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F16FC8E822D7E7D000285FF1 /* ReceipeCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,14 +30,16 @@
 /* Begin PBXFileReference section */
 		F16FC8C022D7E67000285FF1 /* Recipes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Recipes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F16FC8C322D7E67000285FF1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F16FC8C522D7E67000285FF1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F16FC8C822D7E67000285FF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F16FC8CA22D7E67200285FF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F16FC8CD22D7E67200285FF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F16FC8CF22D7E67200285FF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F16FC8D422D7E67200285FF1 /* RecipesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RecipesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F16FC8D822D7E67200285FF1 /* RecipesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesTests.swift; sourceTree = "<group>"; };
 		F16FC8DA22D7E67200285FF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F16FC8E322D7E6DE00285FF1 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		F16FC8E422D7E6DE00285FF1 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		F16FC8E722D7E7D000285FF1 /* ReceipeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceipeCell.swift; sourceTree = "<group>"; };
+		F16FC8E822D7E7D000285FF1 /* ReceipeCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ReceipeCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,11 +82,13 @@
 			isa = PBXGroup;
 			children = (
 				F16FC8C322D7E67000285FF1 /* AppDelegate.swift */,
-				F16FC8C522D7E67000285FF1 /* ViewController.swift */,
-				F16FC8C722D7E67000285FF1 /* Main.storyboard */,
 				F16FC8CA22D7E67200285FF1 /* Assets.xcassets */,
 				F16FC8CC22D7E67200285FF1 /* LaunchScreen.storyboard */,
 				F16FC8CF22D7E67200285FF1 /* Info.plist */,
+				F16FC8E322D7E6DE00285FF1 /* HomeViewController.swift */,
+				F16FC8E422D7E6DE00285FF1 /* HomeViewController.xib */,
+				F16FC8E722D7E7D000285FF1 /* ReceipeCell.swift */,
+				F16FC8E822D7E7D000285FF1 /* ReceipeCell.xib */,
 			);
 			path = Recipes;
 			sourceTree = "<group>";
@@ -179,7 +185,8 @@
 			files = (
 				F16FC8CE22D7E67200285FF1 /* LaunchScreen.storyboard in Resources */,
 				F16FC8CB22D7E67200285FF1 /* Assets.xcassets in Resources */,
-				F16FC8C922D7E67000285FF1 /* Main.storyboard in Resources */,
+				F16FC8E622D7E6DE00285FF1 /* HomeViewController.xib in Resources */,
+				F16FC8EA22D7E7D000285FF1 /* ReceipeCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,8 +204,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F16FC8C622D7E67000285FF1 /* ViewController.swift in Sources */,
+				F16FC8E922D7E7D000285FF1 /* ReceipeCell.swift in Sources */,
 				F16FC8C422D7E67000285FF1 /* AppDelegate.swift in Sources */,
+				F16FC8E522D7E6DE00285FF1 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,14 +229,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		F16FC8C722D7E67000285FF1 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F16FC8C822D7E67000285FF1 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F16FC8CC22D7E67200285FF1 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
