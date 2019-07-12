@@ -13,8 +13,8 @@
 		F16FC8D922D7E67200285FF1 /* RecipesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16FC8D822D7E67200285FF1 /* RecipesTests.swift */; };
 		F16FC8E522D7E6DE00285FF1 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16FC8E322D7E6DE00285FF1 /* HomeViewController.swift */; };
 		F16FC8E622D7E6DE00285FF1 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F16FC8E422D7E6DE00285FF1 /* HomeViewController.xib */; };
-		F16FC8E922D7E7D000285FF1 /* ReceipeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16FC8E722D7E7D000285FF1 /* ReceipeCell.swift */; };
-		F16FC8EA22D7E7D000285FF1 /* ReceipeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F16FC8E822D7E7D000285FF1 /* ReceipeCell.xib */; };
+		F16FC8E922D7E7D000285FF1 /* RecipeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16FC8E722D7E7D000285FF1 /* RecipeCell.swift */; };
+		F16FC8EA22D7E7D000285FF1 /* RecipeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F16FC8E822D7E7D000285FF1 /* RecipeCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +38,8 @@
 		F16FC8DA22D7E67200285FF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F16FC8E322D7E6DE00285FF1 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		F16FC8E422D7E6DE00285FF1 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
-		F16FC8E722D7E7D000285FF1 /* ReceipeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceipeCell.swift; sourceTree = "<group>"; };
-		F16FC8E822D7E7D000285FF1 /* ReceipeCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ReceipeCell.xib; sourceTree = "<group>"; };
+		F16FC8E722D7E7D000285FF1 /* RecipeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCell.swift; sourceTree = "<group>"; };
+		F16FC8E822D7E7D000285FF1 /* RecipeCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RecipeCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,8 +87,8 @@
 				F16FC8CF22D7E67200285FF1 /* Info.plist */,
 				F16FC8E322D7E6DE00285FF1 /* HomeViewController.swift */,
 				F16FC8E422D7E6DE00285FF1 /* HomeViewController.xib */,
-				F16FC8E722D7E7D000285FF1 /* ReceipeCell.swift */,
-				F16FC8E822D7E7D000285FF1 /* ReceipeCell.xib */,
+				F16FC8E722D7E7D000285FF1 /* RecipeCell.swift */,
+				F16FC8E822D7E7D000285FF1 /* RecipeCell.xib */,
 			);
 			path = Recipes;
 			sourceTree = "<group>";
@@ -186,7 +186,7 @@
 				F16FC8CE22D7E67200285FF1 /* LaunchScreen.storyboard in Resources */,
 				F16FC8CB22D7E67200285FF1 /* Assets.xcassets in Resources */,
 				F16FC8E622D7E6DE00285FF1 /* HomeViewController.xib in Resources */,
-				F16FC8EA22D7E7D000285FF1 /* ReceipeCell.xib in Resources */,
+				F16FC8EA22D7E7D000285FF1 /* RecipeCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -204,7 +204,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F16FC8E922D7E7D000285FF1 /* ReceipeCell.swift in Sources */,
+				F16FC8E922D7E7D000285FF1 /* RecipeCell.swift in Sources */,
 				F16FC8C422D7E67000285FF1 /* AppDelegate.swift in Sources */,
 				F16FC8E522D7E6DE00285FF1 /* HomeViewController.swift in Sources */,
 			);

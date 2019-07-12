@@ -6,7 +6,7 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>F3EA5243-3384-484F-8D93-60A55894EE53</key>
+		<key>9C674002-FFE5-4063-8B70-0E9DB034938A</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -15,7 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
 			<key>fileName</key>
-			<string>F3EA5243-3384-484F-8D93-60A55894EE53.xcactivitylog</string>
+			<string>9C674002-FFE5-4063-8B70-0E9DB034938A.xcactivitylog</string>
 			<key>primaryObservable</key>
 			<dict>
 				<key>highLevelStatus</key>
@@ -24,13 +24,13 @@
 			<key>signature</key>
 			<string>Recipes-bgviqmcvcrdnyugnxckgzjvjdzrs</string>
 			<key>timeStartedRecording</key>
-			<real>584667142.94473696</real>
+			<real>584667555.96821499</real>
 			<key>timeStoppedRecording</key>
-			<real>584667144.07004499</real>
+			<real>584667556.44321096</real>
 			<key>title</key>
 			<string>Build target Recipes</string>
 			<key>uniqueIdentifier</key>
-			<string>F3EA5243-3384-484F-8D93-60A55894EE53</string>
+			<string>9C674002-FFE5-4063-8B70-0E9DB034938A</string>
 		</dict>
 	</dict>
 	<key>preserveOldLogs</key>

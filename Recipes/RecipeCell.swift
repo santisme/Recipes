@@ -1,5 +1,5 @@
 //
-//  ReceipeCell.swift
+//  RecipeCell.swift
 //  Recipes
 //
 //  Created by Santiago Sanchez merino on 11/07/2019.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ReceipeCell: UITableViewCell {
+class RecipeCell: UITableViewCell {
 
     override func awakeFromNib() {
         super.awakeFromNib()

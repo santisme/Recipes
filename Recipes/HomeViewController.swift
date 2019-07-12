@@ -11,7 +11,7 @@ import UIKit
 class HomeViewController: UIViewController {
 
     @IBOutlet weak var tableView: UITableView!
-    let cellId = "ReceipeCell"
+    let cellId = "RecipeCell"
     let searchController = UISearchController(searchResultsController: nil)
     var model = Response(dict: [:])
 
